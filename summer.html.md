@@ -1,0 +1,45 @@
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Class Exercise 1:
+Use the provided content to markup the text inside of the <header> and About <section> with the correct HTML elements.
+
+<!-- Class Exercise 2:
+1. Put the "Read More" and "Find Out More" text inside anchor elements. 
+2. Use the information below to populate the href and src attributes for the link and image elements.
+Don't forget your image alt-text.
+
+- #about - remember to add an id="about" to the section you want to link to
+- https://junocollege.com"
+- https://psd.hackeryou.com/summer/image-3.jpg
+- https://psd.hackeryou.com/summer/image-4.jpg
+- https://psd.hackeryou.com/summer/image-5.jpg
+-->
+<!-- Background image exercise: https://psd.hackeryou.com/summer/image-1.jpg -->
+
+
+
+
+<!-- header -->
+<header>
+  <h1> Summer </h1>
+  <p>Read More</p>
+</header>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+ 
+  <h2>About Summer Fun</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincidunt sem, a blandit sem.</p> 
+    <a href="https://www.junocollege.com">Find Out More</a>
+ </section>
+
+
+<!-- Image Gallery Section -->
+<section class="gallery">
+
+    <img src="https://psd.hackeryou.com/summer/image-3.jpg" alt="Person walking on edge of infinity pool">
+    <img src="https://psd.hackeryou.com/summer/image-4.jpg" alt="Beach house on summer day">
+    <img src="https://psd.hackeryou.com/summer/image-5.jpg" alt="Woman in pool drinking from coconut with sunhat">
+  
+</section>
